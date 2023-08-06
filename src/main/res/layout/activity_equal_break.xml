@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:orientation="vertical"
+    tools:context=".EqualBreak">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/equal" />
+
+    <TextView
+        android:id="@+id/equalBreaktextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Equal Break-down"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/BDRatioDesctextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total amount that want to break-down:"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/equalbreakinputamount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Total Amount"
+        android:inputType="number|numberDecimal"
+        android:minHeight="48dp"
+        android:numeric="integer|decimal"
+        android:textColor="#FFC107" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of people:"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/eqpeoplenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Number of people"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:numeric="integer|decimal" />
+
+    <Button
+        android:id="@+id/equalbreaksubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Break down" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result:"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/EqualBreakResult"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/EqualWS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Result to Whatsapp" />
+
+</LinearLayout>

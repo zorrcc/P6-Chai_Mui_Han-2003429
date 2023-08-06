@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:orientation="vertical"
+    tools:context=".ByRatio">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        app:srcCompat="@drawable/ratio" />
+
+    <TextView
+        android:id="@+id/equalBreaktextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Break-down by ratio"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/BDRatioDesctextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total amount that want to break-down:"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/RatioTotalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Total Amount"
+        android:inputType="number|numberDecimal"
+        android:minHeight="48dp"
+        android:numeric="integer|decimal" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of people:"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/RatioPeopleNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Number of people"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:numeric="integer|decimal" />
+
+    <Button
+        android:id="@+id/ratioSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Break-Down bill by ratio" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result:"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/RatioResult"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/ratioWhatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send to Whatsapp" />
+
+</LinearLayout>
